@@ -1,0 +1,14 @@
+.item {
+  display: grid;
+  width: 20%;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  height: 75px;
+}
+.percentage,
+.label {
+  text-align: center;
+}
+.label {
+  margin-top: 10px;
+}

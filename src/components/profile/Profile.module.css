@@ -1,0 +1,35 @@
+.section {
+  width: 250px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  display: inline-grid;
+}
+.avatar {
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.name,
+.tag,
+.location {
+  text-align: center;
+}
+.tag,
+.location {
+  color: grey;
+}
+
+p,
+h2 {
+  margin: 5px;
+}
+
+.stats {
+  display: flex;
+  background-color: #f8f8ff;
+  margin: 0;
+  overflow: hidden;
+}
+:global(ul) {
+  list-style-type: none;
+  padding: 0;
+}
